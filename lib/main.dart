@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:noortify/new_screen.dart';
+import 'package:noortify/modules/home/views/home_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -13,7 +13,7 @@ class Noortify extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Noortify',
-      home: NewScreen(),
+      home: HomeScreen(),
       themeMode: ThemeMode.dark,
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: const Color.fromARGB(255, 33, 29, 29),
